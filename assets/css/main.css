@@ -1,0 +1,34 @@
+body { 
+
+      background: url(../images/background.jpg) no-repeat center center fixed; 
+      background-size: cover;
+      font-weight: bolder;
+    }
+    label {
+      font-size: 25px;
+    }
+    p {
+      background-color: lightblue;
+      text-align: center;
+      margin: 0;
+    }
+    #buttons-view {
+      margin: 10px 0px 10px 0px;
+    }
+    #add-Animal {
+      background-color: lightblue;
+      margin: 5px 0;
+    }
+    .animal {
+      background-color: lightblue;
+      margin: 0px 10px 5px 10px;
+    }
+  	.imgClass {
+  		max-width: 250px;
+      max-height: 200px;
+  	}
+    .divClass {
+      float: left;
+      margin: 5px 10px 5px 20px;
+      height: 220px;
+    }
