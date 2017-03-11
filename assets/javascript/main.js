@@ -4,7 +4,7 @@ var animals = ["monkey", "turtle", "spider", "ant"];
   function displayAnimalInfoFunc() {
     // name of the clided button
     var animal = $(this).attr("data-name");
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=funny " +
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=funny " +
     animal + "&api_key=dc6zaTOxFJmzC&limit=10";
 
     // Creates AJAX call for the specific animal button being clicked
